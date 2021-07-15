@@ -1,9 +1,39 @@
 # login_excercise
+<h3>簡介</h3>
+<p>這是運用express和mongoose做成的簡易登入系統</p>
+<h3>測試帳號</h3>
+ 
+   firstName: 'Tony',
+   email: 'tony@stark.com',
+   password: 'iamironman'
+ 
+ 
+   firstName: 'Steve',
+   email: 'captain@hotmail.com',
+   password: 'icandothisallday'
+ 
+ 
+   firstName: 'Peter',
+   email: 'peter@parker.com',
+   password: 'enajyram'
+ 
+ 
+   firstName: 'Natasha',
+   email: 'natasha@gamil.com',
+   password: '*parol#@$!'
+ 
+ 
+   firstName: 'Nick',
+   email: 'nick@shield.com',
+   password: 'password'
+ 
+
+
 <h3>下載方法</h3>
 <ol>
-  <li>點擊code複製本專案網址https://github.com/extrem9713/restaurantv3.git</li>
-  <li>使用terminal複製本專案: git clone https://github.com/extrem9713/restaurantv3.git</li>
-  <li>使用terminal進入存放資料的資料夾: cd restaurantv3</li>
+  <li>點擊code複製本專案網址https://github.com/extrem9713/login_excercise.git</li>
+  <li>使用terminal複製本專案: git clone https://github.com/extrem9713/login_excercise.git</li>
+  <li>使用terminal進入存放資料的資料夾: cd login</li>
   <li>使用terminal安裝npm: npm install</li>
   <li>使用terminal加入種子資料: npm run seed</li>
   <li>使用terminal安裝nodemon: npm install nodemon</li>
