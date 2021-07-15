@@ -1,6 +1,19 @@
 <form action="/login" method="POST">
-  <h3>LogIn</h3>
-  <input type="email" id="email" placeholder="email" name="email" required>
-  <input type="password" id="password" placeholder="password" name="password" required>
-  <button type="submit">sign in</button>
+  <h3 class="d-flex justify-content-center"></h3>
+
+  <div class="card mx-auto" style="width: 18rem;">
+
+    <div class="card-body">
+      <h2 class="card-title text-center">Account Login</h2>
+      <p class="card-text">
+        <label for="email">帳號</label>
+        <input type="email" class="form-control mb-2" id="email" placeholder="email" name="email" required>
+        <label for="password">密碼</label>
+        <input type="password" class="form-control" id="password" placeholder="password" name="password" required>
+      </p>
+      <button type="submit" class="form-control btn btn-primary">Sign in</button>
+    </div>
+  </div>
+
+
 </form>
