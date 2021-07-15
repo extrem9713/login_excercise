@@ -42,7 +42,7 @@
 </ol>
 
 <h3>首頁</h3>
-<img src="/public/images/restaurantdemo.png">
+<img src="demo.png">
 <br>
 <h3>使用工具</h3>
 <ul>
